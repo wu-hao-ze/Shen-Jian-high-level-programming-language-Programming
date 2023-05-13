@@ -1,0 +1,18 @@
+﻿  Project5.cpp
+F:\C++\C++练习\各种习题练习\Project5\Project5.cpp(33,9): warning C4566: 由通用字符名称“\u2F0A”表示的字符不能在当前代码页(936)中表示出来
+F:\C++\C++练习\各种习题练习\Project5\Project5.cpp(37,10): warning C4566: 由通用字符名称“\u2F0A”表示的字符不能在当前代码页(936)中表示出来
+F:\C++\C++练习\各种习题练习\Project5\Project5.cpp(132,9): warning C4566: 由通用字符名称“\u2F0A”表示的字符不能在当前代码页(936)中表示出来
+F:\C++\C++练习\各种习题练习\Project5\Project5.cpp(138,10): warning C4566: 由通用字符名称“\u2F0A”表示的字符不能在当前代码页(936)中表示出来
+F:\C++\C++练习\各种习题练习\Project5\Project5.cpp(170,9): warning C4566: 由通用字符名称“\u2F64”表示的字符不能在当前代码页(936)中表示出来
+F:\C++\C++练习\各种习题练习\Project5\Project5.cpp(220,9): warning C4566: 由通用字符名称“\u2F0A”表示的字符不能在当前代码页(936)中表示出来
+F:\C++\C++练习\各种习题练习\Project5\Project5.cpp(249,9): warning C4566: 由通用字符名称“\u2F64”表示的字符不能在当前代码页(936)中表示出来
+F:\C++\C++练习\各种习题练习\Project5\Project5.cpp(265,9): warning C4566: 由通用字符名称“\u2F0A”表示的字符不能在当前代码页(936)中表示出来
+F:\C++\C++练习\各种习题练习\Project5\Project5.cpp(269,10): warning C4566: 由通用字符名称“\u2F0A”表示的字符不能在当前代码页(936)中表示出来
+F:\C++\C++练习\各种习题练习\Project5\Project5.cpp(372,9): warning C4566: 由通用字符名称“\u2F63”表示的字符不能在当前代码页(936)中表示出来
+F:\C++\C++练习\各种习题练习\Project5\Project5.cpp(373,9): warning C4566: 由通用字符名称“\u2F63”表示的字符不能在当前代码页(936)中表示出来
+F:\C++\C++练习\各种习题练习\Project5\Project5.cpp(374,9): warning C4566: 由通用字符名称“\u2F63”表示的字符不能在当前代码页(936)中表示出来
+F:\C++\C++练习\各种习题练习\Project5\Project5.cpp(376,9): warning C4566: 由通用字符名称“\u2F0A”表示的字符不能在当前代码页(936)中表示出来
+F:\C++\C++练习\各种习题练习\Project5\Project5.cpp(380,10): warning C4566: 由通用字符名称“\u2F0A”表示的字符不能在当前代码页(936)中表示出来
+F:\C++\C++练习\各种习题练习\Project5\Project5.cpp(415,10): warning C4566: 由通用字符名称“\u2F42”表示的字符不能在当前代码页(936)中表示出来
+F:\C++\C++练习\各种习题练习\Project5\Project5.cpp(454,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  Project5.vcxproj -> F:\C++\C++练习\各种习题练习\x64\Debug\Project5.exe

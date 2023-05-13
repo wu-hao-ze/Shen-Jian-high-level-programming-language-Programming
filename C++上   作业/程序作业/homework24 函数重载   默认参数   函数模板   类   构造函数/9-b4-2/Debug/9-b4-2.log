@@ -1,0 +1,12 @@
+﻿  9-b4-2.cpp
+F:\高程上   作业\程序作业\homework24 函数重载   默认参数   函数模板   类   构造函数\9-b4-2\9-b4-2.cpp(9,10): error C2079: “triangle::p1”使用未定义的 class“point”
+F:\高程上   作业\程序作业\homework24 函数重载   默认参数   函数模板   类   构造函数\9-b4-2\9-b4-2.cpp(10,10): error C2079: “triangle::p2”使用未定义的 class“point”
+F:\高程上   作业\程序作业\homework24 函数重载   默认参数   函数模板   类   构造函数\9-b4-2\9-b4-2.cpp(11,10): error C2079: “triangle::p3”使用未定义的 class“point”
+F:\高程上   作业\程序作业\homework24 函数重载   默认参数   函数模板   类   构造函数\9-b4-2\9-b4-2.cpp(50,70): error C2660: “triangle::area”: 函数不接受 0 个参数
+F:\高程上   作业\程序作业\homework24 函数重载   默认参数   函数模板   类   构造函数\9-b4-2\9-b4-2.cpp(31,18): message : 参见“triangle::area”的声明
+F:\高程上   作业\程序作业\homework24 函数重载   默认参数   函数模板   类   构造函数\9-b4-2\9-b4-2.cpp(55,70): error C2660: “triangle::area”: 函数不接受 0 个参数
+F:\高程上   作业\程序作业\homework24 函数重载   默认参数   函数模板   类   构造函数\9-b4-2\9-b4-2.cpp(31,18): message : 参见“triangle::area”的声明
+F:\高程上   作业\程序作业\homework24 函数重载   默认参数   函数模板   类   构造函数\9-b4-2\9-b4-2.cpp(60,70): error C2660: “triangle::area”: 函数不接受 0 个参数
+F:\高程上   作业\程序作业\homework24 函数重载   默认参数   函数模板   类   构造函数\9-b4-2\9-b4-2.cpp(31,18): message : 参见“triangle::area”的声明
+F:\高程上   作业\程序作业\homework24 函数重载   默认参数   函数模板   类   构造函数\9-b4-2\9-b4-2.cpp(65,70): error C2660: “triangle::area”: 函数不接受 0 个参数
+F:\高程上   作业\程序作业\homework24 函数重载   默认参数   函数模板   类   构造函数\9-b4-2\9-b4-2.cpp(31,18): message : 参见“triangle::area”的声明

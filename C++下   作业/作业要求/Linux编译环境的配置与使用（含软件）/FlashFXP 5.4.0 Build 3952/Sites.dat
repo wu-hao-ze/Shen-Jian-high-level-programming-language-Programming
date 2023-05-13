@@ -1,0 +1,15 @@
+[UTF8/MIXED]
+[Linux-Server]
+created=44264.503830544
+SftpCipherList=34=c33=c32=c31=c36=c35=c18=c5=c17=c6=c16=c7=c19=c0=c20=c1=c28=c13=c15=u26=u23=u30=u8=u2=u25=u9=u22=u3=u21=u24=u4=u10=u29=u27=u12=u11=u14=u
+SftpMACList=0=c2=c5=c7=c1=c3=c6=c8=c9=c10=c11=c12=c13=c14=c15=c4=u
+SftpKEXList=20=c19=c4=c1=c2=c3=c5=c6=c18=c17=c16=c15=c14=c13=c12=c11=c10=c9=c8=c7=c
+IP=10.60.102.252
+user=u1953729
+pass=DD4AEA69F836EB29A9AE63A378
+port=10022
+localpath=F:\高程下   作业\程序作业\
+options=303033300003300110300001000333300000101200013391330
+LoginType=1
+ID=165BEEA1
+CP=gb18030

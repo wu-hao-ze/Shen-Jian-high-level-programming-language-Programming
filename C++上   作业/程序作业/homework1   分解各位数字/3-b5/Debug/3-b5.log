@@ -1,0 +1,4 @@
+﻿  3-b5.cpp
+F:\高程作业\程序作业\homework1\3-b5\3-b5.cpp(11,21): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+F:\高程作业\程序作业\homework1\3-b5\3-b5.cpp(11,16): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+  3-b5.vcxproj -> F:\高程作业\程序作业\homework1\Debug\3-b5.exe

@@ -1,0 +1,18 @@
+﻿  12-b7-2.cpp
+F:\高程下   作业\程序作业\homework3\12-b7-2\12-b7-2.cpp(77,23): warning C4244: “=”: 从“T0”转换到“T”，可能丢失数据
+          with
+          [
+              T0=double
+          ]
+          and
+          [
+              T=int
+          ]
+F:\高程下   作业\程序作业\homework3\12-b7-2\12-b7-2.cpp(148): message : 查看对正在编译的函数 模板 实例化“void matrix_multiplication<int,double,float,2,4,3>(T (&)[2][3],T0 (&)[2][4],T1 (&)[4][3])”的引用
+          with
+          [
+              T=int,
+              T0=double,
+              T1=float
+          ]
+  12-b7-2.vcxproj -> F:\高程下   作业\程序作业\homework3\Debug\12-b7-2.exe

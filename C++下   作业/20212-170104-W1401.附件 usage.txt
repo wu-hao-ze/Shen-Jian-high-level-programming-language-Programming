@@ -1,0 +1,43 @@
+/***************************************************************************
+  函数名称：
+  功    能：
+  输入参数：
+  返 回 值：
+  说    明：
+ ***************************************************************************/
+static void usage(const char* procname)
+{
+	const int wkey = 7 + strlen(procname) + 1;
+	const int wopt = 7 + strlen(procname) + 4;
+	cout << endl;
+
+	cout << "Usage: " << procname << " { --stulist | --qq_record | --begin | --end | {--stuno} | {--only_zero} }" << endl;
+	cout << endl;
+	cout << setw(wkey) << ' ' << "必选项：" << endl;
+	cout << setw(wopt) << ' ' << "--stulist filename   : 学生列表文件名(缺省:stulist.txt)" << endl;
+	cout << setw(wopt) << ' ' << "--qq_record filename : 导出的聊天记录文件名(缺省:2020级-高程[计荣].txt)" << endl;
+	cout << setw(wopt) << ' ' << "--begin timestr      : 起始时间(时间串格式为yyyy-mm-dd hh:mm:ss，加引号)" << endl;
+	cout << setw(wopt) << ' ' << "--end timestr        : 结束时间(时间串格式为yyyy-mm-dd hh:mm:ss，加引号)" << endl;
+	cout << setw(wopt) << ' ' << "注：未检查时间串正确性" << endl;
+	cout << setw(wkey) << ' ' << "可选项：" << endl;
+	cout << setw(wopt) << ' ' << "--stuno stuno        : 指定某个学生(无此选项则全部学生)" << endl;
+	cout << setw(wopt) << ' ' << "--only_zero          : 仅显示0发言学生(指定--stuno时本项无效)" << endl;
+	cout << setw(wopt) << ' ' << "--more_than_zero     : 仅显示有发言学生(指定--stuno时本项无效，且与--only_zero互斥)" << endl;
+	cout << endl;
+
+	cout << "e.g.  " << procname << " --begin \"2021-06-04 10:00:00\" --end \"2021-06-04 11:55:00\"" << endl;
+	cout << setw(wkey) << "                               : 统计\"2020级-高程[计荣].txt\"中在stulist.txt列表中的学生在2021.6.4 10:00~11:55间的发言数量" << endl;
+	cout << "      " << procname << " --begin \"2021-06-04 10:00:00\" --end \"2021-06-04 11:55:00\" --only_zero" << endl;
+	cout << setw(wkey) << "                               : 统计\"2020级-高程[计荣].txt\"中在stulist.txt列表中的学生在2021.6.4 10:00~11:55间0发言数量" << endl;
+	cout << "      " << procname << " --begin \"2021-06-04 10:00:00\" --end \"2021-06-04 11:55:00\" --stuno 2051234" << endl;
+	cout << setw(wkey) << "                               : 统计\"2020级-高程[计荣].txt\"中在stulist.txt列表中的学生2051234在2021.6.4 10:00~11:55间的发言数量" << endl;
+	cout << "      " << procname << " --stulist list1.txt --qq_record 2020级-高程[计荣]-1.txt --begin \"2021-06-04 10:00:00\" --end \"2021-06-04 11:55:00\"" << endl;
+	cout << setw(wkey) << "                               : 统计\"2020级-高程[计荣]-1.txt\"中在list1.txt列表中的学生在2021.6.4 10:00~11:55间发言数量" << endl;
+	cout << "      " << procname << " --stulist list1.txt --qq_record 2020级-高程[计荣]-1.txt --begin \"2021-06-04 10:00:00\" --end \"2021-06-04 11:55:00\" --only_zero" << endl;
+	cout << setw(wkey) << "                               : 统计\"2020级-高程[计荣]-1.txt\"中在list1.txt列表中的学生在2021.6.4 10:00~11:55间所有0发言的学生" << endl;
+	cout << "      " << procname << " --stulist list1.txt --qq_record 2020级-高程[计荣]-1.txt --begin \"2021-06-04 10:00:00\" --end \"2021-06-04 11:55:00\" --more_than_zero" << endl;
+	cout << setw(wkey) << "                               : 统计\"2020级-高程[计荣]-1.txt\"中在list1.txt列表中的学生在2021.6.4 10:00~11:55间所有有发言的学生" << endl;
+	cout << "      " << procname << " --stulist list1.txt --qq_record 2020级-高程[计荣]-1.txt --begin \"22021-06-04 10:00:00\" --end \"2021-06-04 11:55:00\" --stuno 2051234" << endl;
+	cout << setw(wkey) << "                               : 统计\"2020级-高程[计荣]-1.txt\"中在list1.txt列表中的学生在2021.6.4 10:00~11:55间2051234的发言数量" << endl;
+	cout << endl;
+}

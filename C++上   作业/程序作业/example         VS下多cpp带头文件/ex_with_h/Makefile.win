@@ -1,0 +1,31 @@
+# Project: ex_with_h
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = ex1.o ex2.o
+LINKOBJ  = ex1.o ex2.o
+LIBS     = -L"E:/Dev-C++(Ver5.11 TDM-GCC 9.2.0)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -m32 -g3
+INCS     = -I"E:/Dev-C++(Ver5.11 TDM-GCC 9.2.0)/Dev-Cpp/MinGW64/include" -I"E:/Dev-C++(Ver5.11 TDM-GCC 9.2.0)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"E:/Dev-C++(Ver5.11 TDM-GCC 9.2.0)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/9.2.0/include"
+CXXINCS  = -I"E:/Dev-C++(Ver5.11 TDM-GCC 9.2.0)/Dev-Cpp/MinGW64/include" -I"E:/Dev-C++(Ver5.11 TDM-GCC 9.2.0)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"E:/Dev-C++(Ver5.11 TDM-GCC 9.2.0)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/9.2.0/include" -I"E:/Dev-C++(Ver5.11 TDM-GCC 9.2.0)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"
+BIN      = ex_with_h.exe
+CXXFLAGS = $(CXXINCS) -m32 -g3
+CFLAGS   = $(INCS) -m32 -g3
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+ex1.o: ex1.cpp
+	$(CPP) -c ex1.cpp -o ex1.o $(CXXFLAGS)
+
+ex2.o: ex2.cpp
+	$(CPP) -c ex2.cpp -o ex2.o $(CXXFLAGS)

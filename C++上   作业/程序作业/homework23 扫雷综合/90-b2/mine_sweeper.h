@@ -1,0 +1,40 @@
+/*1953729 –≈09 Œ‚∫∆‘Û*/
+#pragma once
+
+int menu();
+int nandu();
+int end(int&, int);
+void yanse(char x);
+void input(int&, int&, int, char dakai[][11], char biaoji[][11]);
+void input(int&, int&, int, char dakai[][18], char biaoji[][18]);
+void input(int&, int&, int, char dakai[][32], char biaoji[][32]);
+void neibushuzu(int, int);
+void nandu1(int, int);
+void nandu2(int, int);
+void nandu3(int, int);
+void kuosan(char saolei[][11], char fugai[][11], char dakai[][11], char biaoji[][11], int alph1, int alph2);
+void kuosan(char saolei[][18], char fugai[][18], char dakai[][18], char biaoji[][18], int alph1, int alph2);
+void kuosan(char saolei[][32], char fugai[][32], char dakai[][32], char biaoji[][32], int alph1, int alph2);
+void output(int num, char saolei[][11], char fugai[][11], char biaoji[][11]);
+void output(int num, char saolei[][18], char fugai[][18], char biaoji[][18]);
+void output(int num, char saolei[][32], char fugai[][32], char biaoji[][32]);
+void game1(char saolei[][11], char fugai[][11], char dakai[][11], char biaoji[][11], int alph1, int alph2, int num, int nanduxuanze, clock_t start, clock_t end);
+void game1(char saolei[][18], char fugai[][18], char dakai[][18], char biaoji[][18], int alph1, int alph2, int num, int nanduxuanze, clock_t start, clock_t end);
+void game1(char saolei[][32], char fugai[][32], char dakai[][32], char biaoji[][32], int alph1, int alph2, int num, int nanduxuanze, clock_t start, clock_t end);
+void weituxing(int nanduxuanze, int num);
+void kuangjia1();
+void kuangjia2();
+void kuangjia3();
+void difficulty1(int, int);
+void difficulty2(int, int);
+void difficulty3(int, int);
+void shuchu(int num, char saolei[][11], char fugai[][11], char biaoji[][11]);
+void shuchu(int num, char saolei[][18], char fugai[][18], char biaoji[][18]);
+void shuchu(int num, char saolei[][32], char fugai[][32], char biaoji[][32]);
+void shubiao(int num, int& flag, int& leishu, int& alph1, int& alph2, char dakai[][11], char biaoji[][11]);
+void shubiao(int num, int& flag, int& leishu, int& alph1, int& alph2, char dakai[][18], char biaoji[][18]);
+void shubiao(int num, int& flag, int& leishu, int& alph1, int& alph2, char dakai[][32], char biaoji[][32]);
+void game2(char saolei[][11], char fugai[][11], char dakai[][11], char biaoji[][11], int alph1, int alph2,  int leishu, int num, int nanduxuanze, clock_t start, clock_t end);
+void game2(char saolei[][18], char fugai[][18], char dakai[][18], char biaoji[][18], int alph1, int alph2,  int leishu, int num, int nanduxuanze, clock_t start, clock_t end);
+void game2(char saolei[][32], char fugai[][32], char dakai[][32], char biaoji[][32], int alph1, int alph2,  int leishu, int num, int nanduxuanze, clock_t start, clock_t end);
+void shengyuleishu(int leishu, int num);

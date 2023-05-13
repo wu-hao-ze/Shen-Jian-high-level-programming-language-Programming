@@ -1,0 +1,8 @@
+﻿  w07-c1-s1.cpp
+F:\高程作业\程序作业\homework7\w07-c1-s1\w07-c1-s1.cpp(19,43): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+F:\高程作业\程序作业\homework7\w07-c1-s1\w07-c1-s1.cpp(22,30): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+F:\高程作业\程序作业\homework7\w07-c1-s1\w07-c1-s1.cpp(26,47): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+F:\高程作业\程序作业\homework7\w07-c1-s1\w07-c1-s1.cpp(30,63): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+F:\高程作业\程序作业\homework7\w07-c1-s1\w07-c1-s1.cpp(36,79): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+F:\高程作业\程序作业\homework7\w07-c1-s1\w07-c1-s1.cpp(39,96): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  w07-c1-s1.vcxproj -> F:\高程作业\程序作业\homework7\Debug\w07-c1-s1.exe

@@ -1,0 +1,9 @@
+﻿  cmd_console_tools.cpp
+F:\高程上   作业\程序作业\homework23 扫雷综合\90-b2\cmd_console_tools.cpp(211,29): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  mine_sweeper_base.cpp
+  mine_sweeper_graph.cpp
+  mine_sweeper_main.cpp
+  mine_sweeper_menu.cpp
+  mine_sweeper_tools.cpp
+  正在生成代码...
+  90-b2.vcxproj -> F:\高程上   作业\程序作业\homework23 扫雷综合\x64\Debug\90-b2.exe
